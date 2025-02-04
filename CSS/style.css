@@ -10,7 +10,7 @@ body{
     height: auto;
     margin: auto;
     padding: 50px;
-    background-color:gray;
+    background-color:rgb(128, 128, 128);
     overflow-y: auto;
     border-radius: 10px;
 }
