@@ -21,13 +21,13 @@ body{
     padding: 10px;
 }
 .container p:nth-child(odd){
-    background-color: rgba(0, 123, 255, 0.4); 
+    background-color: rgba(121, 230, 94, 0.4); 
     margin: 20px 0;
     padding: 25px;
     border-radius: 7px;
 }
 .container p:nth-child(even){
-    background-color: rgba(40, 167, 69, 0.4); 
+    background-color: rgba(174, 216, 77, 0.4); 
     margin: 20px 0;
     padding: 25px;
     border-radius: 7px;
