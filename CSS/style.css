@@ -1,24 +1,34 @@
-#blue{
-    color: blue;
-}
-.red{
-    color: red;
-}
-.white{
-    color: white;
-}
 body{
+    margin: 50px;
+    padding: 0;
     background-image: url(../Img/bg_image.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
-.gymfreaks{
-    border: 5px solid black;
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+    background-color:gray;
+    overflow-y: auto;
+    border-radius: 10px;
 }
-.gymfreaks img{
-    width: 400px;
-    height: 400px;
-    object-fit:contain
+.container img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+.container p:nth-child(odd){
+    background-color: rgba(0, 123, 255, 0.4); 
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 7px;
+}
+.container p:nth-child(even){
+    background-color: rgba(40, 167, 69, 0.4); 
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 7px;
 }
